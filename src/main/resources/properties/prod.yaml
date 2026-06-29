@@ -1,0 +1,12 @@
+# Production properties - warroom-customer-api
+mule.env: prod
+http.port: 8081
+
+db.host: ${db.host}
+db.port: 5432
+db.name: customers_prod
+db.user: ${db.user}
+
+log.level: INFO
+
+api.autodiscovery.id: "warroom-customer-api-prod"

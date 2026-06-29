@@ -1,0 +1,12 @@
+# UAT properties - warroom-customer-api
+mule.env: uat
+http.port: 8081
+
+db.host: db-uat.internal.example.com
+db.port: 5432
+db.name: customers_uat
+db.user: app_uat_user
+
+log.level: DEBUG
+
+api.autodiscovery.id: "warroom-customer-api-uat"
